@@ -1,0 +1,17 @@
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+
+public class EscreveTexto {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		OutputStream os = new FileOutputStream("saida.txt");
+		OutputStream osw = new OutputStreamWriter(os);
+	}
+
+}

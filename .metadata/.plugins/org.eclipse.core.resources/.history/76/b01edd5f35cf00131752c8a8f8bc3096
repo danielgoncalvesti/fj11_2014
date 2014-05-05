@@ -1,0 +1,18 @@
+public class TesteErro {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+			
+			
+		}
+	public static void metodo1(){
+	}
+	
+	public static void metodo2(){
+		
+		
+	}
+}

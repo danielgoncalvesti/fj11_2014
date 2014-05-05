@@ -1,0 +1,28 @@
+import java.io.IOException;
+import java.net.UnknownHostException;
+
+
+public class Cliente {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws UnknownHostException, IOException {
+		// TODO Auto-generated method stub
+		//dispara cliente
+		new Cliente(192.168.133.25:30000).executa();
+	}
+	
+	private String host;
+	private int porta;
+	
+	public Cliente (String host, int porta){
+		this.host = host;
+		this.porta = porta;
+	}
+	
+	public void executa() throws UnknownHostException, IOException {
+		
+	}
+
+}

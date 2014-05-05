@@ -1,0 +1,16 @@
+import org.omg.CORBA.portable.InputStream;
+
+
+public class CriarTexto {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InputStream texto = System.in;
+		
+		
+	}
+
+}

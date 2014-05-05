@@ -1,0 +1,26 @@
+package br.com.caelum.banco;
+
+import br.com.caelum.banco.modelo.Funcionario;
+import br.com.caelum.banco.modelo.Gerente;
+
+public class TestaFuncionario {
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Funcionario f = new Gerente();
+		f.setNome("Daniel");
+		f.setDepartamento("Desenvolvimento");
+		f.setSalario(5000.0);
+		double bonificacao = f.getBonificacao();
+		
+		f.mostra();
+		System.out.println("Sua bonificacao é: "+ bonificacao);
+		
+		f.recebeAumento(2000.0);
+		
+		System.out.println("Salário para 2015 será: "+f.getSalario());
+		
+	}
+
+}

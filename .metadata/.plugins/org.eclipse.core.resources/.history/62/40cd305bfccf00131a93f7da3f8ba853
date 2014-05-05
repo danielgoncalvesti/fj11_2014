@@ -1,0 +1,18 @@
+package br.com.caelum.banco;
+
+import br.com.caelum.banco.modelo.Conta;
+import br.com.caelum.banco.modelo.ContaCorrente;
+
+public class TestaObject {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Conta c1 = new ContaCorrente();
+		Conta c2 = new ContaCorrente();
+		c1.setNumero(10);
+	}
+
+}

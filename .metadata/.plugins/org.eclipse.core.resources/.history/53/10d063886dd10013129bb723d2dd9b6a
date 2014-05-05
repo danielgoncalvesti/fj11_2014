@@ -1,0 +1,19 @@
+public class TestaDebug {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		new TestaDebug().executaQqCoisa();
+	}
+	
+	public TestaDebug(){
+		System.out.println("Estou rodando!");
+	}
+	
+	public void executaQqCoisa(){
+		for(int i= 0; i<5; i++){
+			System.out.println("Rodando o passo "+i);
+		}
+	}
+}

@@ -1,0 +1,15 @@
+public class TestaDeposita {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Conta cp = new ContaPoupanca();
+		try{
+			cp.deposita(-100);
+		}
+		cp.deposita(-100);
+	}
+
+}

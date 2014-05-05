@@ -1,0 +1,11 @@
+public class EscreveTexto {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throw IOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

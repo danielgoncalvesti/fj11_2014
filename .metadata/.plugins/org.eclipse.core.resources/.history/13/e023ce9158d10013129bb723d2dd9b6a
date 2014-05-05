@@ -1,0 +1,23 @@
+
+public class TestaThread {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MeuProcesso p1 = new MeuProcesso(1);
+		MeuProcesso p2 = new MeuProcesso(2);
+		MeuProcesso p3 = new MeuProcesso(3);
+		
+		/*p1.run();
+		p2.run();
+		p3.run(); */
+		
+		Thread t1 = new Thread(p1);
+		Thread t2 = new Thread(p2);
+		Thread t3 = new Thread(p3);
+		
+	}
+
+}

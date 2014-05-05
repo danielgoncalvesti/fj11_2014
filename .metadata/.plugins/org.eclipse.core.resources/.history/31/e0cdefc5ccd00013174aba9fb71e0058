@@ -1,0 +1,21 @@
+package br.com.caelum.banco;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.caelum.banco.modelo.Conta;
+
+public class TestaOrdenacaoDeContas {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		List<Conta> contas = new ArrayList<Conta>();
+		Conta c1 = new ContaCorrent();
+		c1.setNumero(1000);
+		contas.add(c1);
+		
+	}
+
+}

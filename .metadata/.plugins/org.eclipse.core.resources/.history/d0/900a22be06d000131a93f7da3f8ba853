@@ -1,0 +1,15 @@
+package br.com.caelum.banco;
+
+public class TestaString {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "fj11";
+		s.replaceAll("1","2");
+	}
+
+}

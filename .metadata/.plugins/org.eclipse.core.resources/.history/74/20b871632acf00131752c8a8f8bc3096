@@ -1,0 +1,15 @@
+public class TestaFormas {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Quadrado a1 = new Quadrado(2);
+		Retangulo a2 = new Retangulo(3,4);
+		
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package br.com.caelum.banco.modelo;
+public class ValorInvalidoException extends RuntimeException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2091048621088695231L;
+	
+	
+}

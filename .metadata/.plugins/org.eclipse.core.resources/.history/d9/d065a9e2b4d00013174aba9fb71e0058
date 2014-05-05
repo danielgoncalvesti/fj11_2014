@@ -1,0 +1,16 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+public class LerArquivo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		InputStream is = new FileInputStream("arquivo.txt");
+		System.out.println(is.read());
+	}
+
+}

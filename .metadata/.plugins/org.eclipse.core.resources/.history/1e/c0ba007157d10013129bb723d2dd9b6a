@@ -1,0 +1,10 @@
+
+public class MeuProcesso implements Runnable{
+	private int id;
+	public MeuProcesso(int id){
+		this.id = id;
+	}
+	public void run(){
+		
+	}
+}
