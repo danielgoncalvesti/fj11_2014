@@ -38,7 +38,7 @@ public class Cliente {
 		while (teclado.hasNextLine()){
 			saida.println(teclado.nextLine());
 		}
-		
+		 
 		saida.close();
 		teclado.close();
 		cliente.close();
